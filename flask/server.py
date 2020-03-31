@@ -36,7 +36,7 @@ def sensehat():
     return render_template('sensehat.html.j2', sense_values = sense_values)
 
 # server constants
-host = '192.168.0.149'
+host = '192.168.0.151'
 port = 8080
 if __name__ == '__main__':
     app.run(host=host, port=port, debug=True)
